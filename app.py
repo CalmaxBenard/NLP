@@ -11,7 +11,7 @@ nltk.download('wordnet')
 
 def main():
     # page configuration
-    st.set_page_config(page_title="NLP App", page_icon=":robot_face:")
+    st.set_page_config(page_title="Customer Comment Analyzer", page_icon=":robot_face:")
 
     # user input
     st.title("NLP")
@@ -47,7 +47,7 @@ def main():
         else:
             emoji = ":confused:"
             st.info("Confused: {}".format(emoji))
-        st.success("Polarity Score is: {}".format(result))
+        st.success("Thank you for your feedback :blush:")
 
 
 if __name__ == "__main__":
