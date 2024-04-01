@@ -11,10 +11,10 @@ nltk.download('wordnet')
 
 def main():
     # page configuration
-    st.set_page_config(page_title="Customer Comment Analyzer", page_icon=":robot_face:")
+    st.set_page_config(page_title="NLP-Analyzer", page_icon=":robot_face:")
 
     # user input
-    st.title("NLP")
+    st.title("Customer Comment Analyzer")
     st.subheader("Welcome to our Application")
     text = st.text_area("Enter Your Text")
 
