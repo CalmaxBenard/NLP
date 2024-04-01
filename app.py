@@ -6,6 +6,7 @@ from nltk.stem.wordnet import WordNetLemmatizer
 import re
 
 nltk.download('averaged_perceptron_tagger')
+nltk.download('wordnet')
 
 
 def main():
