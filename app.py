@@ -47,7 +47,7 @@ def main():
         else:
             emoji = ":confused:"
             st.info("Confused: {}".format(emoji))
-        st.success("Thank you for your feedback")
+        st.success("Thank you for the feedback")
 
 
 if __name__ == "__main__":
